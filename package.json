@@ -4,6 +4,25 @@
   "description": "a light async filter",
   "main": "index.js",
   "repository": "https://github.com/ieschalier/light-async-filter",
+  "bugs": "https://github.com/ieschalier/light-async-filter/issues/new",
   "author": "Igor ESCHALIER",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/index.js  --out-file index.js --presets @babel/preset-env,minify",
+    "publish": "yarn build && npm publish"
+  },
+  "keywords": [
+    "react",
+    "promise",
+    "async/await",
+    "filter",
+    "array"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-preset-minify": "^0.5.0"
+  }
 }
