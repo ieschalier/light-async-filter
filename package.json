@@ -1,0 +1,9 @@
+{
+  "name": "light-async-filter",
+  "version": "1.0.0-rc0",
+  "description": "a light async filter",
+  "main": "index.js",
+  "repository": "https://github.com/ieschalier/light-async-filter",
+  "author": "Igor ESCHALIER",
+  "license": "MIT"
+}
